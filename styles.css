@@ -1,0 +1,68 @@
+body {
+    font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+  }
+
+  header {
+    padding: 20px 15px;
+    background-color: #1F2937;
+    display: flex;
+    align-items: end;
+    justify-content: space-between;
+    flex-shrink: 0;
+  }
+
+  header h1 {
+    font-size: 24px;
+    color: #f9faf8;
+    font-weight: 900;
+    margin: 0;
+
+  }
+
+  header nav ul {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    display: flex;
+  }
+
+  header nav a {
+    text-decoration: none;
+    color: #e5e7eb;
+    font-size: 18px;
+    padding: 5px 10px;
+    margin: 0 5px;
+  }
+
+
+
+
+  main {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    padding: 20px 15px;
+  }
+
+  footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    padding: 25px 20px;
+    background-color: #1f2937;
+    color: #e5e7eb;
+
+  }
+
+  footer small {
+    font-size: 10px;
+  }
+
+
+
